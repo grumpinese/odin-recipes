@@ -1,0 +1,18 @@
+.body {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    display: inline-flex;
+}
+
+.ingredients {
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+.steps {
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
