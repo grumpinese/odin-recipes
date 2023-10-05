@@ -1,18 +1,11 @@
 .body {
-    border-style: solid;
-    border-width: 1px;
-    border-color: red;
-    display: inline-flex;
+    border: 1px solid red;
+    display: flex;
 }
 
-.ingredients {
-    border-style: solid;
-    border-width: 1px;
-    padding: 5px;
-}
-
-.steps {
-    border-style: solid;
-    border-width: 1px;
-    padding: 5px;
+.body div {
+    flex:1 ;
+    margin: 8px;
+    padding: 2px;
+    border: 1px solid blue;
 }
